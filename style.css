@@ -8,11 +8,12 @@ body{
     margin-bottom: 10%;
     width: 1440px;
     height: 600px;
+    margin: auto;
 }
 
 .header-left{
     width: 50%;
-    padding: 15px;
+    padding: 5px;
 }
 .span-title{
     color: burlywood;
@@ -27,8 +28,10 @@ body{
 }
 .header-right{
     width: 50%;
-    padding: 15px;
+    padding: 5px;
+    
 }
+
 .link{
     text-decoration: none;
     background-image: linear-gradient(red,orange);
@@ -48,21 +51,35 @@ body{
     margin: 0%;  
     width: 1440px;
     height: 600px;
+    margin: auto;
 
 }
+.header-right img{
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
 /* my recipies part */
+#My-recipies-part{
+    display: block;
+    overflow: hidden;
+}
 .my-recipies-header-part{
     width: 706px;
     height: 159px;
     margin: auto;
     text-align: center;
+    margin-bottom: 50px;
 }
 .my-recipies-second-part{
     width: 1239px;
     height: 528px;
     display: flex;
-    margin: 50px;
+    margin-top: 50px;
     box-shadow: -1px 10px 24px -5px;
+    margin: auto;
+    margin-bottom: 25px;
+    
 }
 .header-recipies{
     font-size: 55px;
@@ -88,7 +105,7 @@ border-radius: 15px;
     color: blanchedalmond;
     margin: auto;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 .footer-header{
     font-size: 40px;
@@ -108,6 +125,7 @@ border-radius: 15px;
     border-radius: 15px; 
     box-shadow: 2px 5px 15px 5px;
     margin-bottom: 50px;
+    margin-top: 50px;
 }
 .list-extra{
     width: 400px;
