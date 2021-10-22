@@ -1,0 +1,120 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+}
+/* Header part */
+#header-part{
+    display: flex;
+    margin-bottom: 10%;
+    width: 1440px;
+    height: 600px;
+}
+
+.header-left{
+    width: 50%;
+    padding: 15px;
+}
+.span-title{
+    color: burlywood;
+}
+.header-text-title{
+    font-size: 55px;
+    margin: 0%;
+}
+.header-text{
+    color: rgb(31, 28, 28);
+    margin-bottom: 35px;
+}
+.header-right{
+    width: 50%;
+    padding: 15px;
+}
+.link{
+    text-decoration: none;
+    background-image: linear-gradient(red,orange);
+    padding: 10px 40px;
+    border-radius: 25px;
+    font-weight: 700;
+    color:white;
+
+    
+}
+/* About Me part */
+#About-part{
+    display: flex;
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    margin-bottom: 10%; 
+    margin: 0%;  
+    width: 1440px;
+    height: 600px;
+
+}
+/* my recipies part */
+.my-recipies-header-part{
+    width: 706px;
+    height: 159px;
+    margin: auto;
+    text-align: center;
+}
+.my-recipies-second-part{
+    width: 1239px;
+    height: 528px;
+    display: flex;
+    margin: 50px;
+    box-shadow: -1px 10px 24px -5px;
+}
+.header-recipies{
+    font-size: 55px;
+    color: rgb(56, 55, 53);
+}
+.my-recipies-list{
+width: 413px;
+height: 300px;
+display: block;
+
+padding: 10px;
+}
+.my-recipies-list img{
+width: 100%;
+height: 250px;
+border-radius: 15px;
+}
+/* fooder part */
+#footer-part{
+    width: 1440px;
+    height: 256px;
+    background-color: black;
+    color: blanchedalmond;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+}
+.footer-header{
+    font-size: 40px;
+
+}
+.Footer-h-color{
+    color: burlywood;
+}
+/* Extra part */
+#extra-part{
+    width: 1239px;
+    height: 226px;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px; 
+    box-shadow: 2px 5px 15px 5px;
+    margin-bottom: 50px;
+}
+.list-extra{
+    width: 400px;
+    padding-top: 50px;
+    
+}
+.extra-header{
+    font-size: 45px;
+    margin: 0%;
+}
